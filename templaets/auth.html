@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+        <form method="post" action="{% url 'auth' %}" >
+        {% csrf_token %}
+            <div>
+                <input type="text" id="form3Example1cg" name = "username" class="form-control form-control-lg" />
+                <label class="form-label" for="form3Example1cg">username</label>               
+            </div>
+            <div>
+                <input type="text" id="form3Example1cg" name = "password" class="form-control form-control-lg" />
+                <label class="form-label" for="form3Example1cg">username</label>               
+            </div>
+            <div>
+                <button type="submit">Enter</button>
+            </div>
+        </form>
+    </div>
+</div>

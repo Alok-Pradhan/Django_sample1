@@ -1,0 +1,2 @@
+hello this is static files -
+static files means user can show the files and all the code inside the static folder
